@@ -8,12 +8,6 @@ bundle_cache: &bundle_cache
       - cat *.gemspec
   install_script: bundle update
 
-markdownlint_task:
-  container:
-    image: ruby:latest
-  <<: *bundle_cache
-  rubocop_script: bundle exec mdl .
-
 remark_task:
   container:
     image: node
@@ -29,6 +23,12 @@ remark_task:
     changesInclude(
       '.cirrus.yml', 'package.json', '.remarkrc.yaml', '**/*.md'
     )
+
+rubocop_task:
+  container:
+    image: ruby:latest
+  <<: *bundle_cache
+  rubocop_script: bundle exec rubocop
 
 test_task:
   depends_on:
