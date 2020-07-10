@@ -1,5 +1,13 @@
 # Rack Console Toys
 
+![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/AlexWayfer/rack_console_toys?style=flat-square)
+[![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/rack_console_toys/master.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/rack_console_toys)
+[![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/rack_console_toys.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/rack_console_toys)
+![Depfu](https://img.shields.io/depfu/AlexWayfer/rack_console_toys?style=flat-square)
+[![Inline docs](https://inch-ci.org/github/AlexWayfer/rack_console_toys.svg?branch=master)](https://inch-ci.org/github/AlexWayfer/rack_console_toys)
+[![license](https://img.shields.io/github/license/AlexWayfer/rack_console_toys.svg?style=flat-square)](https://github.com/AlexWayfer/rack_console_toys/blob/master/LICENSE)
+[![Gem](https://img.shields.io/gem/v/rack_console_toys.svg?style=flat-square)](https://rubygems.org/gems/rack_console_toys)
+
 Toys template for [Rack](https://github.com/rack/rack) [console](https://github.com/davidcelis/rack-console).
 
 ## Installation
@@ -32,13 +40,13 @@ expand RackConsoleToys::Template
 ## Development
 
 After checking out the repo, run `bundle install` to install dependencies.
-Then, run `bundle exec rake spec` to run the tests.
 
-To install this gem onto your local machine, run `bundle exec rake install`.
-To release a new version, update the version number in `version.rb`,
-and then run `bundle exec rake release`, which will create a git tag
-for the version, push git commits and tags, and push the `.gem` file
-to [rubygems.org](https://rubygems.org).
+Then, run `toys rspec` to run the tests.
+
+To install this gem onto your local machine, run `toys gem install`.
+
+To release a new version, run `toys gem release %version%`.
+See how it works [here](https://github.com/AlexWayfer/gem_toys#release).
 
 ## Contributing
 
