@@ -27,6 +27,8 @@ Gem::Specification.new do |spec|
 	spec.metadata['changelog_uri'] =
 		'https://github.com/AlexWayfer/rack_console_toys/blob/main/CHANGELOG.md'
 
+	spec.metadata['rubygems_mfa_required'] = 'true'
+
 	spec.files = Dir['lib/**/*.rb', 'README.md', 'LICENSE.txt', 'CHANGELOG.md']
 
 	spec.add_runtime_dependency 'rack-console', '~> 1.3'
