@@ -31,6 +31,6 @@ Gem::Specification.new do |spec|
 
 	spec.files = Dir['lib/**/*.rb', 'README.md', 'LICENSE.txt', 'CHANGELOG.md']
 
-	spec.add_runtime_dependency 'rack-console', '~> 1.3'
-	spec.add_runtime_dependency 'toys-core', '~> 0.16.0'
+	spec.add_dependency 'rack-console', '~> 1.3'
+	spec.add_dependency 'toys-core', '~> 0.16.0'
 end
