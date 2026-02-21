@@ -12,13 +12,14 @@ module RackConsoleToys
 				desc 'Start interactive console'
 
 				optional_arg :environment, default: 'development'
+				flag :pry, '--[no-]pry', default: true
 
 				def run
 					require 'rack/console'
 
 					ARGV.clear
 					ENV['RACK_CONSOLE'] = 'true'
-					Rack::Console.new(environment: environment).start
+					Rack::Console.new(environment: environment, pry: pry).start
 				end
 			end
 
