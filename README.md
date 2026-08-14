@@ -1,7 +1,7 @@
 # Rack Console Toys
 
 [![Gem](https://img.shields.io/gem/v/rack_console_toys.svg?style=flat-square)](https://rubygems.org/gems/rack_console_toys)
-[![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/AlexWayfer/rack_console_toys?style=flat-square)](https://cirrus-ci.com/github/AlexWayfer/rack_console_toys)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AlexWayfer/rack_console_toys/ci.yml?style=flat-square)](https://github.com/AlexWayfer/rack_console_toys/actions)
 [![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/rack_console_toys/main.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/rack_console_toys)
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/rack_console_toys.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/rack_console_toys)
 [![Depfu](https://img.shields.io/depfu/AlexWayfer/rack_console_toys?style=flat-square)](https://depfu.com/repos/github/AlexWayfer/rack_console_toys)
